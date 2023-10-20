@@ -1,6 +1,10 @@
 import sys
 from math import sqrt, ceil
 
+# This program can be called from the command line like so:
+# $ python3 prime_factoriser.py <int to be factorised>
+# You will need to specify the path to the file if in a different directory
+
 args = sys.argv
 if len(args) != 2:
     print("Expected one argument: integer to be factorised")
