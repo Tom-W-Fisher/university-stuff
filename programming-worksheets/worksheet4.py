@@ -231,7 +231,7 @@ the file to use.")
 \nUse 'help' followed by the name of a command for more information. \
 Type CTRL-C to exit.")
 
-def terminal_emulator():
+def terminal_simulator():
     print("Welcome to a very barebones terminal. Type 'help' for help, and CTRL-C to leave.")
     command_dict = {"ls": ls,
                     "pwd": lambda: print(os.getcwd()),
